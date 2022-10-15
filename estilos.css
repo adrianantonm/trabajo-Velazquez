@@ -27,7 +27,10 @@ h1{
     position: fixed;
     background-color: blue;
     width: 200px;
-    height: 100%;
+    height: 90%;
+    top: 14.2%;
+    overflow-y: scroll;
+
 }
 #cuadro{
     background-color: #2d7779;
@@ -35,6 +38,7 @@ h1{
     height: 100%;
     width: 43.5%;
     left: 13%;
+    top: 14.2%;
 }
 #descripcion{
     background-color: #40cb7c;
@@ -42,4 +46,19 @@ h1{
     height: 100%;
     width: 43.5%;
     right: 0;
+    top: 14.2%;
+}
+.pequeño{
+    width: 150px;
+    height: 188px;
+    filter: grayscale(100%);
+    margin: auto;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+.pequeño:hover{
+    filter: grayscale(0);
+    transition: 1s;
 }
