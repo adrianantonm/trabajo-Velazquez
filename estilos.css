@@ -3,6 +3,7 @@
 body{
     margin: 0;
     top: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 header{
     position: fixed;
@@ -10,12 +11,10 @@ header{
     left: 0;
     right: 0;
     height: 100px;
-    background-color: aqua;
     z-index: 1;
 }
 h1{
     position: fixed;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     margin: 0;
     left: 0;
@@ -25,15 +24,13 @@ h1{
 }
 #barra{
     position: fixed;
-    background-color: blue;
     width: 200px;
-    height: 90%;
+    height: 80%;
     top: 14.2%;
     overflow-y: scroll;
 
 }
 #cuadro{
-    background-color: #2d7779;
     position: fixed;
     height: 100%;
     width: 43.5%;
@@ -41,12 +38,12 @@ h1{
     top: 14.2%;
 }
 #descripcion{
-    background-color: #40cb7c;
     position: fixed;
     height: 100%;
     width: 43.5%;
     right: 0;
     top: 14.2%;
+    line-height: 20px;
 }
 .pequeño{
     width: 150px;
@@ -56,9 +53,38 @@ h1{
     display: block;
     padding-bottom: 10px;
     padding-top: 10px;
-
 }
 .pequeño:hover{
     filter: grayscale(0);
     transition: 1s;
+}
+.descripciones{
+    position: relative;
+    padding: 10px;
+    top: 45%;
+}
+h2{
+    font-weight: 700;
+}
+.alinear{
+    text-align: center;
+}
+button{
+    background-color:#97c1c0;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    font-weight: 700;
+}
+button:hover{
+    background-color: #04c5c0;
+}
+.tamaño{
+    width: 100%;
+    height: 100%;
+}
+.negrita{
+    font-weight: 700;
 }
