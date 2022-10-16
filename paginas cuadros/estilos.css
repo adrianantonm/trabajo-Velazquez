@@ -3,11 +3,10 @@ body{
     margin: 0;
 }
 img{
-    position: fixed;
-    width: 50%;
-    height: auto;
+    width: 40%;
 }
 div{
     display: flex;
     justify-content: center;
+    align-items: center;
 }

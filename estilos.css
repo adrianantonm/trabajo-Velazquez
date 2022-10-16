@@ -11,6 +11,7 @@ header{
     right: 0;
     height: 100px;
     z-index: 1;
+    background-color: white;
 }
 h1{
     position: fixed;
@@ -24,10 +25,12 @@ h1{
 #barra{
     position: fixed;
     width: 200px;
-    height: 80%;
+    height: 84%;
     top: 14.2%;
     overflow-y: scroll;
-
+}
+#barra::-webkit-scrollbar{
+    display: none;
 }
 #cuadro{
     position: absolute;
