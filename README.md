@@ -1,12 +1,12 @@
 # DOCUMENTACIÓN
 ## INTRODUCCIÓN
+
 Esta práctica se trata de crear una página web con un repositorio en git utilizando html, css y JavaScript.
 Debería ser lo más responsive posible para que se pueda ajustar a cualquier dispositivo.
 * Lenguajes:
   * HTML
   * CSS
   * JAVASCRIPT
-
 
 ## PARTES DE TRABAJO
 ### COMMIT 1 (maquetación)
@@ -15,7 +15,7 @@ He creado los directorios y archivos html (contenido de la página), css (person
 página), readme (para documentar el proyecto), .gitignore (ignora los archivos o directorios que quiera como las
 imágenes y .idea) y un repositorio con el comando git init, con git add . se preparan los archivos y directorios .
 
-Se ha estructurado el contenido en un header para el titulo, y tres section, para la barra de imágenes pequeñas, la 
+Se ha estructurado el contenido en un header para el título, y tres section, para la barra de imágenes pequeñas, la 
 imagen grande y la descripción. En el css se ha ajustado el tamaño de los section y se ha introducido la letra a 
 utilizar.
 
@@ -69,8 +69,23 @@ correspondiente y en el css se centró la imagen en el medio y con un fondo negr
 
 ### COMMIT 6 (retoques)
 
-En esta parte no he cambiado muchas cosas solo he modificado el css de las imágenes grandes porque no habia quedado
+En esta parte no he cambiado muchas cosas solo he modificado el css de las imágenes grandes porque no había quedado
 del todo centrado y algo del css de la página principal como el color de fondo del header para que no se superponga la 
 imágen grande al hacer scroll.
 
 ### COMMIT 7 (final)
+
+he creado un enlace en cada página de las imágenes grandes hacia la página principal para que al hacer click vuelva a 
+la página principal y he modificado algunos parámetros de la altura y anchura para que sea un poco más responsive.
+
+Por último lo he terminado de documentar en el documento readme.
+
+## CONCLUSIÓN
+
+Es un trabajo hecho en tres días que me ha costado bastante ya que sobre JavaScript no tenía ninguna idea y he tenido
+que ver videos y páginas sobre ese lenguaje para poder completarlo.
+Otra parte que me ha costado ha sido en hacer la página responsive, lo único que me ha fallado ha sido las 
+descripciones.
+
+Me ha parecido una práctica bastante asequible a pesar de ser la primera vez que hacía un trabajo en GIT y no saber 
+JavaScript.
