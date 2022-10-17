@@ -25,13 +25,11 @@ h1{
 #barra{
     position: fixed;
     width: 200px;
-    height: 84%;
+    height: 86%;
     top: 14.2%;
     overflow-y: scroll;
 }
-#barra::-webkit-scrollbar{
-    display: none;
-}
+
 #cuadro{
     position: absolute;
     height: 80%;
@@ -39,13 +37,14 @@ h1{
     left: 200px;
     top: 14.2%;
 }
-#descripcion{
+.descripcion{
     position: fixed;
     height: 100%;
     width: 43.5%;
     right: -20px;
     top: 14.2%;
     line-height: 20px;
+    padding: 10px;
 }
 .pequeño{
     width: 150px;
@@ -63,8 +62,7 @@ h1{
 }
 .descripciones{
     position: relative;
-    padding: 10px;
-    top: 40%;
+    top: 45%;
     margin: auto;
     display: block;
 }
